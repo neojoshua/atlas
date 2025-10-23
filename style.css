@@ -1,0 +1,42 @@
+/* Baseline (inspired by MDN page examples) */
+* { box-sizing: border-box; }
+body {
+  background: #fff;
+  color: #333;
+  font: 1em/1.5 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+}
+h1 { color: purple; margin: 0.5rem 0; }
+p  { color: gray;   margin: 0.5rem 0; }
+
+ul { border: 2px solid orange; }
+ol { border: 2px solid purple; }
+ol, ul { padding: 5px 20px; border-radius: 4px; }
+
+dt { font-weight: 700; color: purple; }
+dl { color: gray; margin: 0.5rem 0; }
+
+/* Make your 3+ custom tweaks below this line */
+
+h1, h2 {
+  color: green;
+}
+
+ol, ul {
+  padding: 10px 25px;
+}
+
+ul {
+  border: 3px solid orange;
+  border-radius: 8px;
+}
+
+ol {
+  border: 3px solid purple;
+  border-radius: 8px;
+}
+
+ol, ul {
+  background-color: #fafafa;
+}
